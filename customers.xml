@@ -1,0 +1,19 @@
+<Customers>
+    <CustomersInfo>
+    <Name>Rohit Joshi</Name>
+    <Address>45 Galaxy Apartments, Indore</Address>
+    <ContactNumber>9887263331</ContactNumber>
+    
+    </CustomersInfo>
+    <CustomersInfo>
+    <Name>Tushar Kapoor</Name>
+    <Address>Lumbini Apartments, Mumbai</Address>
+    <ContactNumber>9507712343</ContactNumber>
+    
+    </CustomersInfo>
+    <CustomersInfo>
+    <Name>Ayush Mehra</Name>
+    <Address>Tirumala Colony, Hyderabad</Address>
+    <ContactNumber>9272772189</ContactNumber>
+    </CustomersInfo>
+    </Customers>

@@ -1,0 +1,22 @@
+<Electronics>
+    <ElectronicsInfo>
+    <Model_Name>CW-099</Model_Name>
+    <Warranty>2022-10-07</Warranty>
+    <Item_No>RT001</Item_No>
+    <Price>1200</Price>
+    </ElectronicsInfo>
+    
+  <ElectronicsInfo>
+    <Model_Name>CW-510</Model_Name>
+    <Warranty>2023-09-08</Warranty>
+    <Item_No>RT500</Item_No>
+    <Price>14000</Price>
+    </ElectronicsInfo>
+    
+  <ElectronicsInfo>
+    <Model_Name>CH-800</Model_Name>
+    <Warranty>2023-07-13</Warranty>
+    <Item_No>RT100</Item_No>
+    <Price>450</Price>
+    </ElectronicsInfo>
+    </Electronics>

@@ -1,0 +1,19 @@
+<Receipt>
+    <ReceiptInfo>
+    <Order_ID>90028</Order_ID>
+    <Price>300</Price>
+    <ItemNo>RT687</ItemNo>
+    
+    </ReceiptInfo>
+    <ReceiptInfo>
+    <Order_ID>90078</Order_ID>
+    <Price>350</Price>
+    <ItemNo>RT560</ItemNo>
+    
+    </ReceiptInfo>
+    <ReceiptInfo>
+    <Order_ID>90012</Order_ID>
+    <Price>500</Price>
+    <ItemNo>RT200</ItemNo>
+    </ReceiptInfo>
+    </Receipt>

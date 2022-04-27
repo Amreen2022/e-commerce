@@ -1,0 +1,22 @@
+<Payment>
+    <PaymentInfo>
+    <NameOnCard>Rohit Rathi</NameOnCard>
+    <ExpiryDate>08/07/27</ExpiryDate>
+    <CreditCardNumber>5566339812343567</CreditCardNumber>
+    <UserID>ABf678</UserID>
+    </PaymentInfo>
+    
+    <PaymentInfo>
+    <NameOnCard>Samarth Sankala</NameOnCard>
+    <ExpiryDate>07/02/28</ExpiryDate>
+    <CreditCardNumber>9888145323446700</CreditCardNumber>
+    <UserID>ABf502</UserID>
+    </PaymentInfo>
+    
+    <PaymentInfo>
+    <NameOnCard>Manit Mantri</NameOnCard>
+    <ExpiryDate>05/04/23</ExpiryDate>
+    <CreditCardNumber>8745098912541231</CreditCardNumber>
+    <UserID>ABf901</UserID>
+    </PaymentInfo>
+    </Payment>

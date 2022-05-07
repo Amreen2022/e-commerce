@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Receipt [
+<!ELEMENT Receipt (ReceiptInfo+)>
+<!ELEMENT ReceiptInfo (Order_ID, Price, ItemNo)>
+<!ATTLIST ReceiptInfo id ID #REQUIRED>
+<!ELEMENT Order_ID (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT ItemNo (#PCDATA)>
+]>
+
+<Receipt>
+<ReceiptInfo id = "id1">
+<Order_ID>90028</Order_ID>
+<Price>300</Price>
+<ItemNo>RT687</ItemNo>
+
+</ReceiptInfo>
+<ReceiptInfo id = "id2">
+<Order_ID>90078</Order_ID>
+<Price>350</Price>
+<ItemNo>RT560</ItemNo>
+
+</ReceiptInfo>
+<ReceiptInfo id = "id3">
+<Order_ID>90012</Order_ID>
+<Price>500</Price>
+<ItemNo>RT200</ItemNo>
+</ReceiptInfo>
+</Receipt>

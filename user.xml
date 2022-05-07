@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Users [
+<!ELEMENT Users (UsersInfo+)>
+<!ELEMENT UsersInfo (User_ID, Password, Email)>
+<!ATTLIST UsersInfo id ID #REQUIRED>
+<!ELEMENT User_ID (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>
+<!ELEMENT Email (#PCDATA)>
+]>
+
+<Users>
+<UsersInfo id = "id1">
+<User_ID>ABf678</User_ID>
+<Password>SkullCrusher</Password>
+<Email>rohitbadoni@gmail.com</Email>
+
+</UsersInfo>
+<UsersInfo id = "id2">
+<User_ID>ABf502</User_ID>
+<Password>TerrorMoscow</Password>
+<Email>rovman@gmail.com</Email>
+
+</UsersInfo>
+<UsersInfo id = "id3">
+<User_ID>ABf901</User_ID>
+<Password>United178</Password>
+<Email>holland@gmail.com</Email>
+</UsersInfo>
+</Users>

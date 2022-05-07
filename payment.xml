@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Payment [
+<!ELEMENT Payment (PaymentInfo+)>
+<!ELEMENT PaymentInfo (NameOnCard, ExpiryDate, CreditCardNumber, UserID)>
+<!ATTLIST PaymentInfo id ID #REQUIRED>
+<!ELEMENT NameOnCard (#PCDATA)>
+<!ELEMENT ExpiryDate (#PCDATA)>
+<!ELEMENT CreditCardNumber (#PCDATA)>
+<!ELEMENT UserID (#PCDATA)>
+]>
+
+<Payment>
+<PaymentInfo id = "id1">
+<NameOnCard>Rohit Rathi</NameOnCard>
+<ExpiryDate>08/07/27</ExpiryDate>
+<CreditCardNumber>5566339812343567</CreditCardNumber>
+<UserID>ABf890</UserID>
+</PaymentInfo>
+<PaymentInfo id = "id2">
+<NameOnCard>Samarth Sankala</NameOnCard>
+<ExpiryDate>07/02/29</ExpiryDate>
+<CreditCardNumber>9888145323446700</CreditCardNumber>
+<UserID>ABf762</UserID>
+</PaymentInfo>
+<PaymentInfo id = "id3">
+<NameOnCard>Manit Mantri</NameOnCard>
+<ExpiryDate>05/04/23</ExpiryDate>
+<CreditCardNumber>8745098912541231</CreditCardNumber>
+<UserID>ABf234</UserID>
+</PaymentInfo>
+</Payment>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Electronics [
+<!ELEMENT Electronics (ElectronicsInfo+)>
+<!ELEMENT ElectronicsInfo (Model_Name, Warranty, Item_No, Price)>
+<!ATTLIST ElectronicsInfo id ID #REQUIRED>
+<!ELEMENT Model_Name (#PCDATA)>
+<!ELEMENT Warranty (#PCDATA)>
+<!ELEMENT Item_No (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+]>
+
+<Electronics>
+<ElectronicsInfo id = "id1">
+<Model_Name>CW-099</Model_Name>
+<Warranty>03/01/2023</Warranty>
+<Item_No>RT001</Item_No>
+<Price>1200</Price>
+</ElectronicsInfo>
+<ElectronicsInfo id = "id2">
+<Model_Name>CW-510</Model_Name>
+<Warranty>03/04/2022</Warranty>
+<Item_No>RT500</Item_No>
+<Price>14000</Price>
+</ElectronicsInfo>
+<ElectronicsInfo id = "id3">
+<Model_Name>CH-800</Model_Name>
+<Warranty>05/05/23</Warranty>
+<Item_No>RT100</Item_No>
+<Price>450</Price>
+</ElectronicsInfo>
+</Electronics>

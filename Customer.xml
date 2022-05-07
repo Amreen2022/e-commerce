@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Customers [
+<!ELEMENT Customers (CustomersInfo+)>
+<!ELEMENT CustomersInfo (Name, Address, ContactNumber)>
+<!ATTLIST CustomersInfo id ID #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Address (#PCDATA)>
+<!ELEMENT ContactNumber (#PCDATA)>
+]>
+
+<Customers>
+<CustomersInfo id = "id1">
+<Name>Rohit Joshi</Name>
+<Address>45 Galaxy Apartments, Indore</Address>
+<ContactNumber>9887263331</ContactNumber>
+
+</CustomersInfo>
+<CustomersInfo id = "id2">
+<Name>Tushar Kapoor</Name>
+<Address>Lumbini Apartments, Mumbai</Address>
+<ContactNumber>9507712343</ContactNumber>
+
+</CustomersInfo>
+<CustomersInfo id = "id3">
+<Name>Ayush Mehra</Name>
+<Address>Tirumala Colony, Hyderabad</Address>
+<ContactNumber>9272772189</ContactNumber>
+</CustomersInfo>
+</Customers>
